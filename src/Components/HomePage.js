@@ -2,7 +2,17 @@ import React, { Component } from 'react';
 import logo from '../img/home/home-jumbotron.png';
 import logoMobile from '../img/home/home-mobile-jumbotron.png';
 import menuButton from '../img/nav-hamburger.png';
-import menuButtonClose from '../img/nav-hamburger-close.png';
+// import menuButtonClose from '../img/nav-hamburger-close.png';
+import home1 from '../img/home/home-img-1.png';
+import home1Mobile from '../img/home/home-mobile-img-1.png';
+import home2 from '../img/home/home-img-2.png';
+import home2Mobile from '../img/home/home-mobile-img-2.png';
+import villas from '../img/home/home-villas-img.png';
+import villasMobile from '../img/home/home-mobile-villas-img.png';
+import outskirts from '../img/home/home-outskirts-img.png';
+import outskirtsMobile from '../img/home/home-mobile-outskirts-img.png';
+import blocks from '../img/home/home-the-blocks-img.png';
+import blocksMobile from '../img/home/home-mobile-the-blocks-img.png';
 class HomePage extends Component {
   render() {
     return (
@@ -33,8 +43,8 @@ class HomePage extends Component {
         <section className="container home">
           <section className="section">
             <section className='box'>
-              <img className="img-desktop" src="../img/home/home-img-1.png" alt="first box image" />
-              <img className="img-mobile" src="../img/home/home-mobile-img-1.png" alt="first mobile box image" />
+              <img className="img-desktop" src={home1} alt="first box image" />
+              <img className="img-mobile" src={home1Mobile} alt="first mobile box image" />
 
             </section>
             <section className="box">
@@ -48,8 +58,8 @@ class HomePage extends Component {
         <section className="section2">
 
           <section className="box">
-            <img className="img-desktop" src="../img/home/home-img-2.png" alt="second box image" />
-            <img className="img-mobile" src="../img/home/home-mobile-img-2.png" alt="second mobile box image" />
+            <img className="img-desktop" src={home2} alt="second box image" />
+            <img className="img-mobile" src={home2Mobile} alt="second mobile box image" />
           </section>
 
           <section className='box'>
@@ -66,8 +76,8 @@ class HomePage extends Component {
 
           <section className="projects">
             <div className="projects-img">
-              <img className="img-desktop" src="../img/home/home-villas-img.png" alt="third box image" />
-              <img className="img-mobile" src="../img/home/home-mobile-villas-img.png" alt="third mobile box image" />
+              <img className="img-desktop" src={villas} alt="third box image" />
+              <img className="img-mobile" src={villasMobile} alt="third mobile box image" />
               <h3 className="right-side">THE VILLAS</h3>
             </div>
 
@@ -79,8 +89,8 @@ class HomePage extends Component {
 
           <section className="projects">
             <div className="projects-img">
-              <img className="img-desktop" src="../img/home/home-outskirts-img.png" alt="fourth box image" />
-              <img className="img-mobile" src="../img/home/home-mobile-outskirts-img.png" alt="fourth mobile box image" />
+              <img className="img-desktop" src={outskirts} alt="fourth box image" />
+              <img className="img-mobile" src={outskirtsMobile} alt="fourth mobile box image" />
               <h3 className="left-side">OUTSKIRTS</h3>
             </div>
             <section className="text">
@@ -91,8 +101,8 @@ class HomePage extends Component {
 
           <section className="projects">
             <div className="projects-img">
-              <img className="img-desktop" src="../img/home/home-the-blocks-img.png" alt="fourth box image" />
-              <img className="img-mobile" src="../img/home/home-mobile-the-blocks-img.png" alt="fourth mobile box image" />
+              <img className="img-desktop" src={blocks} alt="fourth box image" />
+              <img className="img-mobile" src={blocksMobile} alt="fourth mobile box image" />
               <h3 className="right-side">THE BLOCKS</h3>
             </div>
 
